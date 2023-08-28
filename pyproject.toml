@@ -1,0 +1,24 @@
+[project]
+name = "staytouch"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "", email = "gokulnath30@gmail.com"},
+]
+dependencies = [
+    "asgiref==3.3.1",
+    "Django==3.1.8",
+    "django-filter==2.4.0",
+    "djangorestframework==3.12.2",
+    "djangorestframework-simplejwt==4.6.0",
+    "pytz==2021.1",
+    "sqlparse==0.4.1"
+
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
